@@ -62,3 +62,7 @@
   [+] Change EXP
   [+] Change HP
   [+] Change Avatar
+
+[*] Extra Epic
+  [+] Autoupdate (Universal Dodge, Will Be Ready As Soon As Update)
+  [+] Death Logs (Will Log When You Die And Where So It Can Be Fixed)
