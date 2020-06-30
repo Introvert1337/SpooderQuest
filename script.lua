@@ -4,7 +4,7 @@ _G.DungeonSettings = {
         ["AutoSelect"] = false -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
-        ["Dungeon"] = "The Underworld", -- Custom dungeon
+        ["Dungeon"] = "Pirate Island", -- Custom dungeon
         ["Difficulty"] = "Nightmare" -- Custom difficulty
     },
 	["EggIsland"] = {
@@ -14,16 +14,10 @@ _G.DungeonSettings = {
 	}
 }
 
-
-_G.AutofarmSettings = {
-    ["Instakill"] = true, -- Instakill lol
-    ["Delaystart"] = false -- Will only start once you're at the final boss
-}
-
 _G.Autosell = {
     ["Enabled"] = true, -- If autosell is enabled
     ["Rarities"] = { -- Rarities to keep 100% of the time
-        "legendary", "epic"
+        "legendary", "epic", "rare"
     },
     ["Items"] = { -- Items to keep 100% of the time
         
@@ -41,7 +35,7 @@ _G.AutoSkill = {
 
 _G.AutoEquip = {
     ["Enabled"] = true, -- If autoequip is enabled
-    ["EquipType"] = "physicalPower", -- Autoequip type
+    ["EquipType"] = "physicalPower", -- Autoequip type, types: physicalPower, spellPower
 }
 
 _G.AutoUpgrade = {
@@ -67,7 +61,7 @@ _G.Multifarm = { -- Difference for "Joining" is that multi farm auto puts everyo
 _G.LagReduce = {
     ["DisableSpell"] = true, -- Disables spell effects
     ["ReduceGraphics"] = true,
-    ["CumLand"] = false -- :)
+    ["CumLand"] = true -- :)
 }
 
 _G.Misc = {
@@ -76,11 +70,12 @@ _G.Misc = {
     ["EndAfterSeconds"] = 999, -- Time to auto end the dungeon after
     ["InstaRejoin"] = true, -- Insta rejoins after completion
     ["AutoDaily"] = true,
+    ["Delaystart"] = false -- Will only start once you're at the final boss
 }
 
 _G.GuiChange = {
-    ["Enabled"] = false, -- If gui change is enabled
-    ["Name"] = "Introvert", -- Player's Name
+    ["Enabled"] = true, -- If gui change is enabled
+    ["Name"] = "smh my head", -- Player's Name
     ["Level"] = "6969", -- Player's Level
     ["EXP"] = "6969", -- Player's EXP
     ["HP"] = "6969", -- Player's HP
