@@ -17,10 +17,14 @@ _G.DungeonSettings = {
 _G.Autosell = {
     ["Enabled"] = true, -- If autosell is enabled
     ["Rarities"] = { -- Rarities to keep 100% of the time
-        "legendary", "epic", "rare"
+        "legendary",
     },
     ["Items"] = { -- Items to keep 100% of the time
-        
+        ["Alien Warrior Helmet"] = {"epic"},
+    	["Alien Warrior Armor"] = {"epic"},
+    	["Alien Mage Helmet"] = {"epic"},
+    	["Alien Mage Armor"] = {"epic"},
+    	["Twin Slash"] = {"epic"},
     }
 }
 
