@@ -11,25 +11,27 @@ _G.DungeonSettings = {
 		["Enabled"] = false, -- If egg island is enabled
 		["Difficulty"] = "Nightmare", -- Difficulty
 		["Set"] = "Mage" -- Capital first letter (case sensitive)
-	}
+    },
+    ["WaveDefense"] = {
+        ["Enabled"] = true, -- If wave defense is enabled
+        ["Dungeon"] = "Desert Temple",
+        ["Difficulty"] = "Nightmare",
+        ["StopAtWave"] = 5,
+    },
 }
 
 _G.Autosell = {
-    ["Enabled"] = true, -- If autosell is enabled
+    ["Enabled"] = false, -- If autosell is enabled
     ["Rarities"] = { -- Rarities to keep 100% of the time
-        "legendary",
+        "legendary", "epic", "rare"
     },
     ["Items"] = { -- Items to keep 100% of the time
-        ["Alien Warrior Helmet"] = {"epic"},
-    	["Alien Warrior Armor"] = {"epic"},
-    	["Alien Mage Helmet"] = {"epic"},
-    	["Alien Mage Armor"] = {"epic"},
-    	["Twin Slash"] = {"epic"},
+        
     }
 }
 
 _G.AutoSkill = {
-    ["Enabled"] = true, -- If auto skill is enabled or not
+    ["Enabled"] = false, -- If auto skill is enabled or not
     ["SkillType"] = { -- Percentages to upgrade each
         ["physical"] = 100,
         ["spell"] = 0,
