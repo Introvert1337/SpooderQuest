@@ -8,6 +8,11 @@
     [+] Enabled Toggle
     [+] Difficulty Config
     [+] Set Type Config
+  [*] Wave Defense
+    [+] Enable Toggle
+    [+] Custom Dungeon
+    [+] Difficulty Config
+    [+] Stop at wave
 
 [*] Autofarm Settings
   [+] Instakill
