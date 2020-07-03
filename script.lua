@@ -1,10 +1,10 @@
 _G.DungeonSettings = {
     ["General"] = {
         ["Hardcore"] = true, -- If the dungeon is hardcore
-        ["AutoSelect"] = false -- Auto select highest dungeon
+        ["AutoSelect"] = true -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
-        ["Dungeon"] = "Pirate Island", -- Custom dungeon
+        ["Dungeon"] = "Orbital Outpost", -- Custom dungeon
         ["Difficulty"] = "Nightmare" -- Custom difficulty
     },
 	["EggIsland"] = {
@@ -13,25 +13,29 @@ _G.DungeonSettings = {
 		["Set"] = "Mage" -- Capital first letter (case sensitive)
     },
     ["WaveDefense"] = {
-        ["Enabled"] = true, -- If wave defense is enabled
+        ["Enabled"] = false, -- If wave defense is enabled
         ["Dungeon"] = "Desert Temple",
         ["Difficulty"] = "Nightmare",
-        ["StopAtWave"] = 5,
+        ["StopAtWave"] = 300,
     },
 }
 
 _G.Autosell = {
-    ["Enabled"] = false, -- If autosell is enabled
+    ["Enabled"] = true, -- If autosell is enabled
     ["Rarities"] = { -- Rarities to keep 100% of the time
-        "legendary", "epic", "rare"
+        "legendary",
     },
     ["Items"] = { -- Items to keep 100% of the time
-        
+        ["Alien Warrior Helmet"] = {"epic"},
+		["Alien Warrior Armor"] = {"epic"},
+		["Alien Mage Helmet"] = {"epic"},
+		["Alien Mage Armor"] = {"epic"},
+		["Twin Slash"] = {"epic"}
     }
 }
 
 _G.AutoSkill = {
-    ["Enabled"] = false, -- If auto skill is enabled or not
+    ["Enabled"] = true, -- If auto skill is enabled or not
     ["SkillType"] = { -- Percentages to upgrade each
         ["physical"] = 100,
         ["spell"] = 0,
@@ -66,13 +70,14 @@ _G.Multifarm = { -- Difference for "Joining" is that multi farm auto puts everyo
 
 _G.LagReduce = {
     ["DisableSpell"] = true, -- Disables spell effects
+    ["DisableDamageNums"] = true,
     ["ReduceGraphics"] = true,
-    ["CumLand"] = true -- :)
+    ["CumLand"] = false -- :)
 }
 
 _G.Misc = {
     ["WaitTime"] = 0, -- How long the script waits before auto executing
-    ["DupeSlot"] = "q", -- Spell slot to dupe (cast twice)
+    ["DupeSlot"] = "e", -- Spell slot to dupe (cast twice)
     ["EndAfterSeconds"] = 999, -- Time to auto end the dungeon after
     ["InstaRejoin"] = true, -- Insta rejoins after completion
     ["AutoDaily"] = true,
@@ -80,7 +85,7 @@ _G.Misc = {
 }
 
 _G.GuiChange = {
-    ["Enabled"] = true, -- If gui change is enabled
+    ["Enabled"] = false, -- If gui change is enabled
     ["Name"] = "smh my head", -- Player's Name
     ["Level"] = "6969", -- Player's Level
     ["EXP"] = "6969", -- Player's EXP
