@@ -1,7 +1,7 @@
 _G.DungeonSettings = {
     ["General"] = {
         ["Hardcore"] = true, -- If the dungeon is hardcore
-        ["AutoSelect"] = true -- Auto select highest dungeon
+        ["AutoSelect"] = false -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
         ["Dungeon"] = "Orbital Outpost", -- Custom dungeon
@@ -81,7 +81,6 @@ _G.Misc = {
     ["EndAfterSeconds"] = 999, -- Time to auto end the dungeon after
     ["InstaRejoin"] = true, -- Insta rejoins after completion
     ["AutoDaily"] = true,
-    ["Delaystart"] = false -- Will only start once you're at the final boss
 }
 
 _G.GuiChange = {
