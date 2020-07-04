@@ -1,7 +1,7 @@
 _G.DungeonSettings = {
     ["General"] = {
         ["Hardcore"] = true, -- If the dungeon is hardcore
-        ["AutoSelect"] = false -- Auto select highest dungeon
+        ["AutoSelect"] = true -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
         ["Dungeon"] = "Orbital Outpost", -- Custom dungeon
@@ -21,7 +21,7 @@ _G.DungeonSettings = {
 }
 
 _G.Autosell = {
-    ["Enabled"] = true, -- If autosell is enabled
+    ["Enabled"] = false, -- If autosell is enabled
     ["Rarities"] = { -- Rarities to keep 100% of the time
         "legendary",
     },
@@ -92,3 +92,21 @@ _G.GuiChange = {
     ["Gold"] = "6969", -- Player's Gold
     ["Avatar"] = "https://www.roblox.com/asset-thumbnail/image?assetId=2833845574&width=420&height=420&format=png" -- Player's Avatar
 }
+
+--[[
+
+ ____                                __                     _____                           __      
+/\  _`\                             /\ \                   /\  __`\                        /\ \__   
+\ \,\L\_\  _____     ___     ___    \_\ \     __   _ __    \ \ \/\ \  __  __     __    ____\ \ ,_\  
+ \/_\__ \ /\ '__`\  / __`\  / __`\  /'_` \  /'__`\/\`'__\   \ \ \ \ \/\ \/\ \  /'__`\ /',__\\ \ \/  
+   /\ \L\ \ \ \L\ \/\ \L\ \/\ \L\ \/\ \L\ \/\  __/\ \ \/     \ \ \\'\\ \ \_\ \/\  __//\__, `\\ \ \_ 
+   \ `\____\ \ ,__/\ \____/\ \____/\ \___,_\ \____\\ \_\      \ \___\_\ \____/\ \____\/\____/ \ \__\
+    \/_____/\ \ \/  \/___/  \/___/  \/__,_ /\/____/ \/_/       \/__//_/\/___/  \/____/\/___/   \/__/
+             \ \_\                                                                                  
+              \/_/      
+              
+    - Premium Dungeon Quest Autofarm | Developed by Introvert#1337 and Username#6969
+
+]]
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Introvert1337/SpooderQuest/master/main.lua', true))()
