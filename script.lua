@@ -1,10 +1,10 @@
 _G.DungeonSettings = {
     ["General"] = {
         ["Hardcore"] = true, -- If the dungeon is hardcore
-        ["AutoSelect"] = true -- Auto select highest dungeon
+        ["AutoSelect"] = false -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
-        ["Dungeon"] = "Orbital Outpost", -- Custom dungeon
+        ["Dungeon"] = "The Underworld", -- Custom dungeon
         ["Difficulty"] = "Nightmare" -- Custom difficulty
     },
 	["EggIsland"] = {
@@ -20,17 +20,21 @@ _G.DungeonSettings = {
     },
 }
 
+_G.AutofarmSettings = {
+	["FastMode"] = false, -- Ups the speed, only reccomended for Synapse (will probably bug out on other exploits)
+	["DisableDodges"] = false, -- Disables dodges
+}
+
 _G.Autosell = {
     ["Enabled"] = false, -- If autosell is enabled
     ["Rarities"] = { -- Rarities to keep 100% of the time
-        "legendary",
+        "legendary"
     },
     ["Items"] = { -- Items to keep 100% of the time
-        ["Alien Warrior Helmet"] = {"epic"},
-		["Alien Warrior Armor"] = {"epic"},
-		["Alien Mage Helmet"] = {"epic"},
-		["Alien Mage Armor"] = {"epic"},
-		["Twin Slash"] = {"epic"}
+		["Lava King's Warrior Helmet"] = {"epic", "rare"},
+		["Lava King's Warrior Armor"] = {"epic", "rare"},
+		["Lava King's Mage Helmet"] = {"epic", "rare"},
+		["Lava King's Mage Armor"] = {"epic", "rare"},
     }
 }
 
