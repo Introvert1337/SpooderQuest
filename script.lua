@@ -12,12 +12,6 @@ _G.DungeonSettings = {
 		["Difficulty"] = "Nightmare", -- Difficulty
 		["Set"] = "Mage" -- Capital first letter (case sensitive)
     },
-    ["WaveDefense"] = {
-        ["Enabled"] = false, -- If wave defense is enabled
-        ["Dungeon"] = "Desert Temple",
-        ["Difficulty"] = "Nightmare",
-        ["StopAtWave"] = 300,
-    },
 }
 
 _G.AutofarmSettings = {
