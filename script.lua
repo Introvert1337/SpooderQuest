@@ -1,10 +1,10 @@
 _G.DungeonSettings = {
     ["General"] = {
         ["Hardcore"] = true, -- If the dungeon is hardcore
-        ["AutoSelect"] = false -- Auto select highest dungeon
+        ["AutoSelect"] = true -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
-        ["Dungeon"] = "The Underworld", -- Custom dungeon
+        ["Dungeon"] = "Volcanic Chambers", -- Custom dungeon
         ["Difficulty"] = "Nightmare" -- Custom difficulty
     },
 	["EggIsland"] = {
@@ -12,10 +12,15 @@ _G.DungeonSettings = {
 		["Difficulty"] = "Nightmare", -- Difficulty
 		["Set"] = "Mage" -- Capital first letter (case sensitive)
     },
+    ["BossRaids"] = {
+        ["Enabled"] = false,
+        ["AutoTier"] = true,
+        ["Tier"] = 1,
+    }
 }
 
 _G.AutofarmSettings = {
-	["FastMode"] = false, -- Ups the speed, only reccomended for Synapse (will probably bug out on other exploits)
+	["FastMode"] = false, -- Ups the speed, only takes effect on Synapse and Protosmasher (DT, WO, SS, OO, VC)
 	["DisableDodges"] = false, -- Disables dodges
 }
 
@@ -25,10 +30,11 @@ _G.Autosell = {
         "legendary"
     },
     ["Items"] = { -- Items to keep 100% of the time
-		["Lava King's Warrior Helmet"] = {"epic", "rare"},
-		["Lava King's Warrior Armor"] = {"epic", "rare"},
-		["Lava King's Mage Helmet"] = {"epic", "rare"},
-		["Lava King's Mage Armor"] = {"epic", "rare"},
+		["Twin Slash"] = {"epic"},
+		["Lava King's Warrior Helmet"] = {"epic"},
+		["Lava King's Warrior Armor"] = {"epic"},
+		["Lava King's Mage Helmet"] = {"epic"},
+		["Lava King's Mage Armor"] = {"epic"},
     }
 }
 
@@ -47,7 +53,7 @@ _G.AutoEquip = {
 }
 
 _G.AutoUpgrade = {
-    ["Enabled"] = true, -- If auto upgrade is enabled
+    ["Enabled"] = false, -- If auto upgrade is enabled
 }
 
 _G.Joining = {
@@ -62,7 +68,7 @@ _G.Multifarm = { -- Difference for "Joining" is that multi farm auto puts everyo
     ["Enabled"] = false, -- If multifarm is enabled or not
     ["Host"] = "account1", -- Party host
     ["Joiners"] = { -- Party joiners
-        "account2", "account3" 
+        "account2"
     }
 }
 
@@ -77,13 +83,13 @@ _G.Misc = {
     ["WaitTime"] = 0, -- How long the script waits before auto executing
     ["DupeSlot"] = "e", -- Spell slot to dupe (cast twice)
     ["EndAfterSeconds"] = 999, -- Time to auto end the dungeon after
-    ["InstaRejoin"] = true, -- Insta rejoins after completion
+    ["InstaRejoin"] = false, -- Insta rejoins after completion
     ["AutoDaily"] = true,
 }
 
 _G.GuiChange = {
-    ["Enabled"] = false, -- If gui change is enabled
-    ["Name"] = "smh my head", -- Player's Name
+    ["Enabled"] = true, -- If gui change is enabled
+    ["Name"] = "mrob skid", -- Player's Name
     ["Level"] = "6969", -- Player's Level
     ["EXP"] = "6969", -- Player's EXP
     ["HP"] = "6969", -- Player's HP
