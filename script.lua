@@ -35,7 +35,7 @@ _G.Autosell = {
 		["Lava King's Warrior Armor"] = {"epic"},
 		["Lava King's Mage Helmet"] = {"epic"},
 		["Lava King's Mage Armor"] = {"epic"},
-    }
+    },
 }
 
 _G.AutoSkill = {
