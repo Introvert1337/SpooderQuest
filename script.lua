@@ -1,6 +1,6 @@
 _G.DungeonSettings = {
     ["General"] = {
-        ["Hardcore"] = true, -- If the dungeon is hardcore
+        ["Hardcore"] = false, -- If the dungeon is hardcore
         ["AutoSelect"] = true -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
