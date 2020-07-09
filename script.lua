@@ -4,7 +4,7 @@ _G.DungeonSettings = {
         ["AutoSelect"] = true -- Auto select highest dungeon
     },
     ["CustomDungeon"] = {
-	["Enabled"] = false -- Enable custom dungeon
+	    ["Enabled"] = false, -- Enable custom dungeon
         ["Dungeon"] = "Volcanic Chambers", -- Custom dungeon
         ["Difficulty"] = "Nightmare" -- Custom difficulty
     },
