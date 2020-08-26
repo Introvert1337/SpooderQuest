@@ -6,7 +6,7 @@ getgenv().DungeonSettings = {
     ["CustomDungeon"] = {
 	    ["Enabled"] = true, -- Enable custom dungeon
         ["Dungeon"] = "Volcanic Chambers", -- Custom dungeon
-        ["Difficulty"] = "Nightmare" -- Custom difficulty
+        ["Difficulty"] = "Insane" -- Custom difficulty
     },
 }
 
@@ -54,10 +54,11 @@ getgenv().LagReduce = {
 
 getgenv().Misc = {
     ["WaitTime"] = 0, -- How long the script waits before auto executing
-    ["DupeSlot"] = "e", -- Spell slot to dupe (cast twice)
+    ["DupeSlot"] = "q", -- Spell slot to dupe (cast twice)
     ["EndAfterSeconds"] = 999, -- Time to auto end the dungeon after
     ["InstaRejoin"] = false, -- Insta rejoins after completion
     ["AutoDaily"] = true,
+    ["AlwaysAttack"] = false, -- Will always attack, pretty simple to understand :P
 }
 
 getgenv().AntiReport = {
